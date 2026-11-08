@@ -1,0 +1,3 @@
+// A preference for this visual edition only; no assessment data is transmitted.
+(()=>{const button=document.querySelector('.theme-toggle');let night=false;try{night=localStorage.getItem('career-sakura-night')==='true'}catch{}function apply(){document.body.classList.toggle('night-mode',night);button.setAttribute('aria-pressed',String(night));button.setAttribute('aria-label',night?'Switch to day theme':'Switch to night theme');button.textContent=night?'☼':'☾'}apply();button.addEventListener('click',()=>{night=!night;apply();try{localStorage.setItem('career-sakura-night',String(night))}catch{}})})();
+

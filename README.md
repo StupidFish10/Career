@@ -21,3 +21,6 @@ Assessment results are stored in browser local storage. A code can retrieve its 
 
 The advisor is a local, rule-based demonstration and does not call an external AI service. It uses the saved profile and career catalog to answer a small set of exploration prompts. The app is an exploration aid, not a definitive test or professional counselling.
 
+## Clean edition
+This separate copy uses an ivory and forest-green visual design. Open index.html to view it. Visual overrides are in clean.css. The original career-explorer folder is preserved.
+
